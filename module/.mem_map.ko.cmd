@@ -1,0 +1,1 @@
+cmd_/home/babak/code/module/mem_map.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/babak/code/module/mem_map.ko /home/babak/code/module/mem_map.o /home/babak/code/module/mem_map.mod.o
